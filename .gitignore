@@ -1,0 +1,48 @@
+# --- Security & Secrets Í---
+.aws/
+credentials
+*.pem
+*.key
+.env
+*.env
+
+# --- Java & Spring Boot ---
+# Ignores compiled code and build artifacts
+*.class
+*.jar
+*.war
+*.ear
+target/
+.mvn/
+.gradle/
+bin/
+
+# --- Python & Data Science ---
+# Ignores virtual environments and cache
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env/
+.pytest_cache/
+.ipynb_checkpoints/
+*.csv
+*.json
+# (Note: Only ignore CSV/JSON if they are huge data files; keep small config files)
+
+# --- Node.js & React ---
+# Ignores the massive dependencies folder
+node_modules/
+build/
+dist/
+.eslintcache
+npm-debug.log*
+
+# --- IDE & OS ---
+# Ignores local settings that differ between developers
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
